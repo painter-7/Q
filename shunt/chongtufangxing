@@ -1,0 +1,13 @@
+# > 屏蔽苹果系统更新
+host, ns.itunes.apple.com, direct
+host, appldnld.apple.com, direct
+host, mesu.apple.com, direct
+host, xp.apple.com, direct
+host, gdmf.apple.com, direct
+HOST-SUFFIX,iadsdk.apple.com, direct
+HOST-SUFFIX,ads.internal.unity3d.com, direct
+HOST-SUFFIX,ads.prd.ie.internal.unity3d.com, direct
+HOST-SUFFIX,unityads.unity3d.com, direct
+HOST-SUFFIX,amdc.m.taobao.com, direct
+HOST-KEYWORD, IS.SNSSDK.COM, direct
+HOST-KEYWORD, api.iplay.163.com, direct

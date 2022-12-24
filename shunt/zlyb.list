@@ -1,0 +1,8 @@
+host-suffix,uop.umeng.com,reject
+host-suffix,alogs.umeng.com,reject
+HOST-SUFFIX,umengcloud.com,reject
+host-suffix,tnc3-aliec2.snssdk.com,reject
+host-suffix,app-measurement.com,reject
+host-suffix,inappcheck.itunes.apple.com,reject
+#车来了小程序
+host-suffix,umini.shujupie.com,reject
