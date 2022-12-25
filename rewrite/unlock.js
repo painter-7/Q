@@ -21,7 +21,7 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 
 #>>>>>>>>>>>>>>>>图影类VIP
 # aptv(buy.itunes.apple.com)
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aptv.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/painter-7/Q/main/Cuttlefish/Script/aptv.js
 
 # 音频剪辑- 音乐剪辑大师+解锁订阅(buy.itunes.apple.com)
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ypjj.js
@@ -44,7 +44,7 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*", request-body storefrontId" : "143441-1,29",
 
 #彩云（解锁VIP）(biz.caiyunapp.com)
-^https:\/\/biz\.caiyunapp\.com\/v2\/user.+ url script-response-body https://gjds.vip/QX/pojie/cytq.js
+^https:\/\/biz\.caiyunapp\.com\/v2\/user.+ url script-response-body https://raw.githubusercontent.com/painter-7/Q/main/Cuttlefish/Script/cytq.js
 
 # documents+解锁订阅(license.pdfexpert.com)
 ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js
