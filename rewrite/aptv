@@ -2,7 +2,7 @@
 # 个人整理
 #############################################################################
 
-hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,buy.itunes.apple.com,fufei.fengyunsoft.cn,buy.itunes.apple.com
+hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn
 
 
 #>>>>>>>>>>>>>>>>生活类VIP
@@ -14,9 +14,7 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 ^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js
 
 
-
 #>>>>>>>>>>>>>>>>新闻类VIP
-
 
 
 #>>>>>>>>>>>>>>>>图影类VIP
@@ -25,7 +23,6 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 
 # > Picsew解锁专业版
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
-
 
 
 
