@@ -13,9 +13,6 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 # 菜谱大全(dq.xiangha.com,apiios_dq.xiangha.com)
 ^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js
 
-#微博
-^https:\/\/api\.weibo\.cn url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
-
 #>>>>>>>>>>>>>>>>新闻类VIP
 
 
