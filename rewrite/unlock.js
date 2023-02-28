@@ -2,8 +2,7 @@
 # 个人整理
 #############################################################################
 
-hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn,pan.baidu.com, *faceu*,*retouchpics*,*.ulikecam.com
-
+hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn,pan.baidu.com
 
 #>>>>>>>>>>>>>>>>生活类VIP
 # 完美解锁酷我音乐     *.kuwo.cn, *.lrts.me 
@@ -25,11 +24,6 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 # > Picsew解锁专业版
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
 
-#醒图+剪映会员+轻颜相机会员  *faceu*,*retouchpics*,*.ulikecam.com
-#^http[s]?:\/\/.+((retouchpics)|(faceu)|(ulikecam)).(com|cn|mobi)\/.+(user|\/v1\/homepage\/pro|ever_photo\/space_info).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/XTJY.js
-#^http[s]?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info\?(iid|.&aid|.&iid).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xintu.js
-#^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/JY.js
-#^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/jxyq.js
 
 
 #>>>>>>>>>>>>>>>>工具类VIP
