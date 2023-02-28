@@ -2,7 +2,7 @@
 # 个人整理
 #############################################################################
 
-hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn,pan.baidu.com,*qidian.com
+hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn,pan.baidu.com
 
 
 #>>>>>>>>>>>>>>>>生活类VIP
@@ -49,9 +49,3 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 
 #百度网盘解锁部分vip功能
 ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
-
-#起点读书会员   *qidian.com
-^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/refresh url reject-200
-^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v(3|2|4)\/(user\/getaccountpage\?gender|client\/getsplashscreen\?localLabels|subscription\/getunboughtchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/QDVIP.js
-^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v(2|4)\/(subscription\/getvipprice|bookcontent\/getvipcontent|.*safegetcontent\?bookId\=[0-9]+&) url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/QDTK.js
-^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/adv\/getadvlistbatch\?positions url reject-200
