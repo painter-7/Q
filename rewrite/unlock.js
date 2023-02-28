@@ -29,7 +29,7 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 ^http[s]?:\/\/.+((retouchpics)|(faceu)|(ulikecam)).(com|cn|mobi)\/.+(user|\/v1\/homepage\/pro|ever_photo\/space_info).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/XTJY.js
 ^http[s]?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info\?(iid|.&aid|.&iid).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/xintu.js
 #^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/JY.js
-^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/jxyq.js
+#^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.*total_memory.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/jxyq.js
 
 
 #>>>>>>>>>>>>>>>>工具类VIP
