@@ -2,7 +2,7 @@
 # 个人整理
 #############################################################################
 
-hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn,pan.baidu.com
+hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com , *.docer.wps.cn, vipapi.wps.cn, account.wps.cn,dq.xiangha.com,apiios_dq.xiangha.com,testflight.apple.com,license.pdfexpert.com,fufei.fengyunsoft.cn,pan.baidu.com,www.bing.com
 
 #>>>>>>>>>>>>>>>>生活类VIP
 # 完美解锁酷我音乐     *.kuwo.cn, *.lrts.me 
@@ -48,3 +48,6 @@ hostname = *kuwo*, *lrts*, pan.baidu.com, *wps*, account.wps.cn,*account.wps.com
 
 #百度网盘解锁部分vip功能
 ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
+
+# Unlock browser restrictions for new bing AI search.    www.bing.com
+^https:\/\/www\.bing\.com\/(search|new) url request-header (\r\nUser-Agent:.+?)\w+\/[\d\.]+(\r\n) request-header $1AppleWebKit/537.36 Chrome/110.0 Safari/537.36 Edg/110.0$2
